@@ -720,31 +720,121 @@ img
 .skills__html
 {
     width: 90%;
+    animation: html 1s;
+}
+
+@keyframes html 
+{
+
+    0%
+    {
+        width: 0%;
+    }
+    90%
+    {
+        width: 90%;
+    }
+    
 }
 
 .skills__css
 {
     width: 80%;
+    animation: css 1s;
+}
+
+@keyframes css 
+{
+
+    0%
+    {
+        width: 0%;
+    }
+    90%
+    {
+        width: 80%;
+    }
+    
 }
 
 .skills__js
 {
     width: 60%;
+    animation: js 1s;
+}
+
+@keyframes js 
+{
+
+    0%
+    {
+        width: 0%;
+    }
+    90%
+    {
+        width: 60%;
+    }
+    
 }
 
 .skills__react
 {
     width: 50%;
+    animation: react 1s;
+}
+
+@keyframes react 
+{
+
+    0%
+    {
+        width: 0%;
+    }
+    90%
+    {
+        width: 50%;
+    }
+    
 }
 
 .skills__python
 {
     width: 95%;
+    animation: python 1s;
+}
+
+@keyframes python 
+{
+
+    0%
+    {
+        width: 0%;
+    }
+    90%
+    {
+        width: 95%;
+    }
+    
 }
 
 .skills__node
 {
     width: 65%;
+    animation: node 1s;
+}
+
+@keyframes node 
+{
+
+    0%
+    {
+        width: 0%;
+    }
+    90%
+    {
+        width: 65%;
+    }
+    
 }
 
 .skills__asp
