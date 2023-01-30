@@ -1,0 +1,30 @@
+/*================== thanks ==================*/
+.thanks
+{
+    text-align: center;
+    background: var(--bg--opacity), url("../img/bg1.png");
+    background-size: cover;
+}
+
+.thanks__container
+{
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.thanks__title
+{
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.thanks__description
+{
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
